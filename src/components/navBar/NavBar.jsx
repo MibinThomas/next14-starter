@@ -1,12 +1,13 @@
 
 import Links from "./links/Links";
 import styles from "./navbar.module.css";
-const NavBar = () =>{
-    return(
+import Link from "next/link";
+const NavBar = () => {
+    return (
         <div className={styles.container}>
-            <div className={styles.logo}>WEBEYECRAFT</div>
+            <Link href="/" className={styles.logo}>WEBEYECRAFT</Link>
             <div>
-                <Links/>
+                <Links />
             </div>
         </div>
     )

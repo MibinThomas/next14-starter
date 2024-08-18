@@ -1,9 +1,10 @@
 :root{
-    --bg:#000000;
-    --bgSoft:#2d2b42;
-    --text:white;
+    --bg:#fff;
+    --bgSoft:#353246;
+    --text:#003566;
     --textSoft:#e5e5e5;
-    -btn:#3673fd;
+    --btn:#3673fd;
+    
 }
 
 *{
@@ -13,7 +14,7 @@
 }
 
 body{
-    background-color:var(--bgSoft);
+    background-color:var(--bg);
     color: var(--text);
 }
 
